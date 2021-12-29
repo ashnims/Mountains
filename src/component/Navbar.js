@@ -2,12 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Mountain from "../Photos/mountain.svg";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import "../CSS/navbar.css";
 
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 const Navbar = () => {
-  const [click, setClick] = useState(false);
+  const [click, setClick] = useState(!false);
   const handleClick = () => {
     setClick(!false);
   };
